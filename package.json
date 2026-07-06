@@ -1,0 +1,13 @@
+{
+  "name": "playwright-automation-practice",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript Automation Practice Framework",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  }
+}
